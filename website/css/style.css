@@ -1,0 +1,429 @@
+@charset "utf-8";
+/* CSS applicable to more than one page */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#wrapper {
+	height: 1080px;
+	width: 100%;
+	border: 2px solid black;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.header {
+	background-color: #040d19;
+	height: 13%;
+	width: 100%;
+	margin-top: 0;
+}
+
+#navigation {
+	background-color: #4577e5;
+	height: 35%;
+	width: 96%;
+	margin: auto;
+	border-radius: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	background-color: #aaa0a0;
+	height: 50%;
+	width: 15%;
+	display: inline-block;
+	font-family: Helvetica;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-top: 0.8%;
+	margin-left: 1%;
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Change text colour to black on hover */
+a:hover {
+	color: blue;
+}
+
+/* Change visited colour link to black */
+a:visited {
+	color: black;
+}
+
+/* Change unvisited colour link to black */
+a:unvisited {
+	color: white;
+
+}
+/* Change the active link background to white and text colour to dark green */
+.active {
+	background-color: darkslategrey;
+	color: white;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: allura;
+	font-style: normal;
+	font-weight: 400;
+	padding-top: 10px;
+	margin: 0;
+	font-size: 1.8em;
+}
+
+h2 {
+	color: black;
+	margin: 2%;
+	font-family: Helvetica;
+	font-size: 1.5em;
+}
+
+h3 {
+	color: black;
+	margin: 2%;
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.slides {
+	height: 90%;
+	width: 96%;
+	margin: 2%;
+	border: 2px solid black;
+	background-color: #4577e5;
+}
+
+#footer {
+	background-color: #4577e5;
+	margin: 0 auto;
+	padding: 1% 0;
+	height: 6.5%;
+}
+
+.footertext {
+	background-color: #4577e5;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1% auto;
+}
+
+.footertext p {
+	background-color: #4577e5;
+	font-size: 1em;
+}
+
+/* CSS applicable to index.html only */
+#about {
+	height: 39%;
+	width: 100%;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+.website {
+	height: 85%;
+	width: 45%;
+	float: left;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+.college {
+	height: 85%;
+	width: 45%;
+	float: right;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+#previews {
+	height: 39%;
+	width: 100%;
+	border-bottom: 2px solid black;
+}
+
+.infoboxes {
+	height: 85%;
+	width: 20%;
+	border: 2px solid black;
+	float: left;
+	margin: 2.3%;
+	border-radius: 10px;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+.aboutinfo {
+	color: black;
+	font-family: Helvetica;
+	margin: 2%;
+	font-size: 1em;
+}
+
+/* CSS applicable to college_history.html only */
+#colhist_wrapper {
+	height: 37.75%;
+	width: 100%;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+#colhist_overview {
+	height: 95%;
+	width: 96%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+#college_eras {
+	height: 37.75%;
+	width: 100%;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+#early_years {
+	height: 85%;
+	width: 28%;
+	border: 2px solid black;
+	float: left;
+	margin: 2.3%;
+	border-radius: 10px;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+#mid_years {
+	height: 85%;
+	width: 28%;
+	border: 2px solid black;
+	float: left;
+	margin: 2.3%;
+	border-radius: 10px;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+#modern_years {
+	height: 85%;
+	width: 28%;
+	border: 2px solid black;
+	float: left;
+	margin: 2.3%;
+	border-radius: 10px;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+/* CSS applicable to campus_ecology.html only */
+#campeco_wrapper {
+	height: 37.75%;
+	width: 100%;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+#campeco_overview {
+	height: 95%;
+	width: 96%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+#eco_areas {
+	height: 37.75%;
+	width: 100%;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+#habitats {
+	height: 85%;
+	width: 45%;
+	border: 2px solid black;
+	float: left;
+	margin: 2.3%;
+	border-radius: 10px;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+#plants {
+	height: 85%;
+	width: 45%;
+	border: 2px solid black;
+	float: left;
+	margin: 2.3%;
+	border-radius: 10px;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+#plantinfo {
+	height: 75.6%;
+	width: 96%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+#habitatinfo {
+	height: 75.8%;
+	width: 96%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+/* CSS applicable to local_history.html only */
+#lochist_wrapper {
+	height: 78.2%;
+	width: 100%;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+#lochist_overview {
+	height: 95%;
+	width: 96%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+/* CSS applicable to nln.html only */
+#nln_wrapper {
+	height: 78.2%;
+	width: 100%;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+#nln_overview {
+	height: 95%;
+	width: 96%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: #aaa0a0;
+	font-size: 1em;
+}
+
+/* CSS for slideshow */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  	position: relative;
+  	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1em;
+  padding: 1% 2%;
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* CSS for History subpages */
+#history_gallery {
+	height: 80.5%;
+	width: 100%;
+	background-color: #aaa0a0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
